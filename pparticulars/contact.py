@@ -15,7 +15,7 @@ from telegram.ext import (
     CallbackQueryHandler,
 )
 # Global Variable 
-smu_email_validator = '^[a-z]+[.]2[0-9]{3}[@][a-z]{3,4}[.][s][m][u][.][e][d][u][.][s][g]' # For smu email validation
+smu_email_validator = '^[a-z]+[.]2[0-9]{3}[@][a-z][.][s][m][u][.][e][d][u][.][s][g]' # For smu email validation
 personal_email_validator = '^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$' # For personal email validation
 
 # Enable logging
