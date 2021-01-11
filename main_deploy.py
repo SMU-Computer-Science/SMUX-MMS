@@ -79,7 +79,7 @@ updater.dispatcher.add_handler(CallbackQueryHandler(delete_recent, pattern='call
 updater.start_webhook(listen="0.0.0.0",
                        port=PORT,
                        url_path="SMUX_EXCO_BOT_TOKEN")
-updater.bot.setWebhook('https://smux-mms-backend.herokuapp.com/' + "SMUX_EXCO_BOT_TOKEN")
+updater.bot.setWebhook('https://smux-mms.herokuapp.com/' + "SMUX_BOT_TOKEN")
 updater.idle()
 
 
