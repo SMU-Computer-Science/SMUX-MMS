@@ -19,7 +19,7 @@ def cmd_menu(update, context):
 def main_menu_keyboard():
     keyboard = [
         [
-        InlineKeyboardButton("Actvities", callback_data="callback_activities"),
+        InlineKeyboardButton("Activities", callback_data="callback_activities"),
         InlineKeyboardButton("Events", callback_data="callback_events"),
         ],
         [
