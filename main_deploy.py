@@ -13,17 +13,12 @@ from events import events, details, register, unregister
 from schedule import schedule
 
 #KEY MODULES
-from database import db
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Updater,
     CommandHandler,
     MessageHandler,
     Filters,
-    ConversationHandler,
-    CallbackContext,
     CallbackQueryHandler,
-    RegexHandler,
 )
 import logging
 from dotenv import load_dotenv
